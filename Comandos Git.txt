@@ -1,0 +1,41 @@
+COMANDOS GIT:
+
+git status
+	Mostra a situação atual dos arquivos no repositório.
+	Tanto os não commitados, quanto os arquivos referentes à área de stage.
+	
+git log
+	Mostra o histórico do repositório, todos os commits realizados.
+	
+git add <nome_do_arquivo>
+	Adiciona o arquivos novos ou modificados à área de stage do repositório, passando a rastrear os arquivos novos.
+	
+git commit
+	Commita os arquivos que estão na área de stage, é necesário informar uma mensagem após a execução desse comando no editor de texto do git.
+	OBS: Para confirmar a mensagem no editor de texto tecla-se, (ESC), (:)+(w), (:)+(q). 
+	
+git commit -m <mensagem>
+	Commita os arquivos que estão na área de stage, informando uma mensagem na hora do commit.
+	
+git commit -a -m <mensagem> ou git commit -am <mensagem>
+	Adciona os arquivos modificados à área de stage, e commita todos os arquivos adicionando a mensagem na hora do commit.
+	
+arquivo .gitignore
+	A existência desse arquivo no repositório, faz com que o Git ignore determinados arquivos ou diretórios.
+	Exemplo:
+		arquivo.log (ignora somente o arquivo.log na pasta raíz do repositório).
+		*.log (ignora todos os arquivos com a extensão .log).
+		/pasta (ignora todo o diretório com o nome informado).
+		/pasta/arquivo.log (ignora somente o arquivo.log existente no diretório informado).
+		/pasta/*.log (ignora todos os arquivos com a extensão .log no diretório pasta).
+	OBS: Para criar o arquivo .gitignore, cria-se um .txt e renomeie-o para ".gitignore.", o S.O. entende o "." no final, como um arquivo sem extensão.
+		 A ausência do "." no final exige que seja informada um extensão.
+	
+git config --global user.name <nome_do_usuário>
+	Informa ao Git o usuário do sistema.
+	
+git config --global user.email <email_do_usuário>
+	Informa ao Git o email do usuário do sistema.
+	
+cd ~/<diretorio>
+	
