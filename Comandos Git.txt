@@ -43,3 +43,29 @@ cd ~/<diretório>/<diretório>
 	Seleciona o diretório que será usado no momento pelo Git.
 	OBS: "~" representa o diretório raíz do usuário no sistema operacional.
 		 Para diretórios que possuem espaço(" ") no nome, é necessário colocar todo o nome entre aspas. Exemplo: ~/"pasta de trabalho".
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+git log --oneline
+
+git log -n <numero>
+
+git diff
+
+git log --stat
+
+git diff --staged
+
+git diff <código do commit>
+
+git diff <código do commit(mais antigo)>..<código do commit(mais atual)>
+
+git diff <código do commit>~<número>
+
+git rm <arquivo.extensao>
+
+git mv <nome_do_arquivo.extensão> <novo_nome_do_arquivo.extensão> 
