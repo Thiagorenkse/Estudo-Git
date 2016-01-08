@@ -16,7 +16,7 @@ git commit
 	Commita os arquivos que estão na área de stage, é necesário informar uma mensagem após a execução desse comando no editor de texto do git.
 	OBS: Para confirmar a mensagem no editor de texto tecla-se, (ESC), (:)+(w), (:)+(q). 
 	
-git commit -m <mensagem>
+git commit -m "<mensagem>"
 	Commita os arquivos que estão na área de stage, informando uma mensagem na hora do commit.
 	
 git commit -a -m <mensagem> ou git commit -am <mensagem>
@@ -39,7 +39,7 @@ git config --global user.name <nome_do_usuário>
 git config --global user.email <email_do_usuário>
 	Informa ao Git o email do usuário do sistema.
 	
-cd ~/<diretório>/<diretório
+cd ~/<diretório>/<diretório>
 	Seleciona o diretório que será usado no momento pelo Git.
 	OBS: "~" representa o diretório raíz do usuário no sistema operacional.
 		 Para diretórios que possuem espaço(" ") no nome, é necessário colocar todo o nome entre aspas. Exemplo: ~/"pasta de trabalho".
