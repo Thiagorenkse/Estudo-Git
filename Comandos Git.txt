@@ -1,6 +1,8 @@
-COMANDOS GIT:
+|=======================================|
+|=============COMANDOS GIT:=============|
+|=======================================|
 
-git status
+|git status
 	Mostra a situação atual dos arquivos no repositório.
 	Tanto os não commitados, quanto os arquivos referentes à área de stage.
 	
@@ -37,5 +39,7 @@ git config --global user.name <nome_do_usuário>
 git config --global user.email <email_do_usuário>
 	Informa ao Git o email do usuário do sistema.
 	
-cd ~/<diretorio>
-	
+cd ~/<diretório>/<diretório
+	Seleciona o diretório que será usado no momento pelo Git.
+	OBS: "~" representa o diretório raíz do usuário no sistema operacional.
+		 Para diretórios que possuem espaço(" ") no nome, é necessário colocar todo o nome entre aspas. Exemplo: ~/"pasta de trabalho".
