@@ -68,4 +68,21 @@ git diff <código do commit>~<número>
 
 git rm <arquivo.extensao>
 
-git mv <nome_do_arquivo.extensão> <novo_nome_do_arquivo.extensão> 
+git mv <nome_do_arquivo.extensão> <novo_nome_do_arquivo.extensão>
+
+git checkout -- <arquivo.extensão>
+
+git reset
+
+git reset -- <arquivo.extensão>
+
+git reset --hard
+
+git reset --hard <código do commit desejado>
+
+git revert --no-edit <código do commit desejado>
+	OBS: --no-edit
+	
+git init --bare <nome do repositório>
+
+ 
