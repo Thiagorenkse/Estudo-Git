@@ -1,1 +1,1 @@
-60 Desfazendo mudanças
+67 Sincronizando o repositório local
