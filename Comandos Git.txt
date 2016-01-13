@@ -85,4 +85,12 @@ git revert --no-edit <código do commit desejado>
 	
 git init --bare <nome do repositório>
 
+git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.168.1.1/opt/repositorios/moveis-ecologicos.git>
+
+ git remote
  
+ git remote -v
+ 
+ git remote rename <nome_atual> <novo_nome>
+ 
+ git remote set-url <nome_repoitorio> <nova_url>
