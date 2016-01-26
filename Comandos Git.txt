@@ -94,3 +94,13 @@ git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.
  git remote rename <nome_atual> <novo_nome>
  
  git remote set-url <nome_repoitorio> <nova_url>
+ 
+ 
+ |-------------------------------------|
+ |---------------GitHub----------------|
+ |-------------------------------------|
+ 
+ fork
+ pull request
+ 
+ 
