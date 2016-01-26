@@ -95,6 +95,13 @@ git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.
  
  git remote set-url <nome_repoitorio> <nova_url>
  
+ git branch
+ 
+ git branch -v
+ 
+ git log --parents
+ 
+ git log --decorate
  
  |-------------------------------------|
  |---------------GitHub----------------|
