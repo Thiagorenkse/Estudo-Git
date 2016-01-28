@@ -70,7 +70,7 @@ git rm <arquivo.extensao>
 
 git mv <nome_do_arquivo.extensão> <novo_nome_do_arquivo.extensão>
 
-git checkout -- <arquivo.extensão>
+git checkout --<arquivo.extensão>
 
 git reset
 
@@ -102,6 +102,14 @@ git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.
  git log --parents
  
  git log --decorate
+ 
+ git branch <nome da branch>
+ 
+ git checkout <nome da branch>
+ 
+ git checkout -b <nome da branch>
+ 
+ git checkout -d <nome da branch>
  
  |-------------------------------------|
  |---------------GitHub----------------|
