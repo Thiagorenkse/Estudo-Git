@@ -111,6 +111,40 @@ git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.
  
  git checkout -d <nome da branch>
  
+ git branch --no-merged
+ 
+ git branch --merged
+ 
+ git merge <nome branch desejada> -m "mensagem"
+ 
+ git merge <nome da branch desejada> -no-ff -m "mensagem"
+ 
+ git rebase <nome da branch desejada> 
+ obs:Rebase significa restaurar a branch que receberá os commits, de uma outra branch, ao seu estado inicial. Antes de se ter criado a segunda branch a partir dela. 
+ Então aplica-se todos os commits da segunda branch na branch primária, e depois aplicão-se todos os commits da branch primária posteriores à criação da segunda branch.
+ 
+ git branch -r
+ 
+ git branch -a
+ 
+ git branch -av ou git branch -a -v
+ 
+ git branch -rv ou git branch -r -v
+ 
+ 
+ 
+ 
+ 
+Fast Foward - acontece quando é realizado um merge com uma branch, onde a branch original (primária), ainda não recebeu nenhum commit, ou seja, manteve seu estado igual quando houve a criação da segunda branch.
+Então ao ser realizado o merge com a branch secundária, apenas realiza-se os commits da segunda branch na branch primária, ou seja as duas branch ficam exatamente iguais.
+ 
+ OBS: para manter o histórico intacto de uma branch principal após um rebase existe uma maneira. Ao invés de realizar o rebase da branch secundária na primária (o que colocaria todos os commits 
+ da branch secundária como antepassados dos novos commits da branch primária, e os novos commit da primária teria seus ids alterados).
+ Primeiramente trocaríamos para a branch secundária, e então faríamos o rebase da primária na secundária, aplicando todos os commits realizados na primária após a criação da segunda, como 
+ antepassados dos commits relaizados na segunda. Seria como se a branch secundária tivesse sido criada após a realização de todos os commits atuais da branch primária.
+ Então depois mudaríamos para a branch master e agora sim, com a branch secundária já tendo todos os commits da primária como antepassados de seus próprios commits, faríamos um rebase,
+ agora, da secundária na primária. O que aconteceria um fast foward, o histórico da branch primária ficara intacto, e seriam aplicados como posteriores todos os commits da branch secundária.
+ 
  |-------------------------------------|
  |---------------GitHub----------------|
  |-------------------------------------|
