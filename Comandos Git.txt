@@ -143,6 +143,18 @@ git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.
  
  git push <nome repositorio remoto> :<nome branch remota>
  
+ git tag <nome para a tag>
+ 
+ git tag <nome para a tag> <id commit desejado>
+ 
+ git tag -d <nome da tag>
+ 
+ git show -s <nome da tag>
+ 
+ git push <nome repositório remoto> <nome tag criada>
+ 
+ git push --tags
+ 
 Fast Foward - acontece quando é realizado um merge com uma branch, onde a branch original (primária), ainda não recebeu nenhum commit, ou seja, manteve seu estado igual quando houve a criação da segunda branch.
 Então ao ser realizado o merge com a branch secundária, apenas realiza-se os commits da segunda branch na branch primária, ou seja as duas branch ficam exatamente iguais.
  
