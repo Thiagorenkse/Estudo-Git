@@ -155,6 +155,8 @@ git remote add <nome_repositorio_remoto> <url_repositorio_remoto_ex: file://192.
  
  git push --tags
  
+ git log --all
+ 
 Fast Foward - acontece quando é realizado um merge com uma branch, onde a branch original (primária), ainda não recebeu nenhum commit, ou seja, manteve seu estado igual quando houve a criação da segunda branch.
 Então ao ser realizado o merge com a branch secundária, apenas realiza-se os commits da segunda branch na branch primária, ou seja as duas branch ficam exatamente iguais.
  
