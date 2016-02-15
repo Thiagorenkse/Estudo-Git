@@ -1,1 +1,1 @@
-150 Resolvendo conflitos após um rebase
+157 Maneiras de trabalhar com Git
