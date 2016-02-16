@@ -1,1 +1,1 @@
-167 Utilizando branches por etapa de desenvolvimento com um repositório central
+177 Apêndice GitHub no Windows
